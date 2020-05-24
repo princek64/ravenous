@@ -10,6 +10,7 @@ const sortByOptions = {
 // const url = 'https://api.yelp.com/v3/businesses/search';
 
 class SearchBar extends React.Component{
+    
     renderSortByOptions() {
         return Object.keys(sortByOptions).map(sortByOption => {
             let sortByOptionValue = sortByOptions[sortByOption];
